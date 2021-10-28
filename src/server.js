@@ -1,3 +1,4 @@
+//server
 import "dotenv/config" //load env variables from .env
 import express, { urlencoded } from "express"
 import mongoose from "mongoose"
@@ -43,6 +44,5 @@ console.log("here")
 // app.use("/addtodo", todolistRouter)
 app.use("/todo", todolistRouter)
 app.use("/employee", employeeRouter)
-
 
 app.listen(8090, () => console.log("Server Started at 8090"))
