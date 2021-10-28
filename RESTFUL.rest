@@ -1,0 +1,69 @@
+#### TODOLIST  ##################################################
+
+GET http://localhost:8090/todo
+
+###
+
+GET http://localhost:8090/todo/612817c7c62048025846105a
+
+###
+POST http://localhost:8090/todo/addtodo
+Content-Type: application/json
+
+{
+    "name":"CAT"
+}
+
+###
+PATCH http://localhost:8090/todo/612828128085bd59e1456016
+Content-Type: application/json
+
+{
+    "name":"testo"
+}
+
+
+###
+PUT http://localhost:8090/todo/612828128085bd59e1456016
+Content-Type: application/json
+
+{
+    "name":"New"
+}
+
+###
+DELETE http://localhost:8090/todo/612828128085bd59e1456016 
+
+### 
+########### EMPLOYEE #########################################
+GET http://localhost:8090/employee
+
+###
+POST http://localhost:8090/employee/addEmployee
+Content-Type: application/json
+
+{
+    "firstname":"James",
+    "lastname":"jone",
+    "phone": "456",
+    "email": "Mary@gmail.com"
+}
+
+###
+PATCH http://localhost:8090/employee/6166320138fcc5b3538924c8
+Content-Type: application/json
+
+{
+    "name":"newName"
+}
+
+###
+PUT http://localhost:8090/employee/6166320138fcc5b3538924c8
+Content-Type: application/json
+
+{
+    "name":"New"
+}
+
+###
+DELETE http://localhost:8090/employee/6166320138fcc5b3538924c8 
