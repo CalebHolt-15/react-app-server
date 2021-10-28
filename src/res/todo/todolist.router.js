@@ -3,6 +3,10 @@ import { Router } from "express"
 import { TodoList } from "./todolist.model.js" //.js must include
 const router = Router()
 
+router.get("/hello", async (req, res) => {
+  res.json("hello john")
+})
+
 //RESTFUL APIS
 //getall
 router.get("/", async (req, res) => {
