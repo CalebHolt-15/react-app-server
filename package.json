@@ -15,12 +15,14 @@
   "homepage": "https://github.com/CalebHolt-15/dict-todo-app-server#readme",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "start2": "nodemon src/server2.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
     "mongoose": "^6.0.12"
   },
   "devDependencies": {
